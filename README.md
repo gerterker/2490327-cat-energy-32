@@ -2,7 +2,7 @@
 
 * Студент: [Герт Дерингер](https://up.htmlacademy.ru/adaptive/32/user/2490327).
 * Наставник: [Валера Хаслер](https://htmlacademy.ru/profile/id224163).
-* Сайт: [Мой проект Кэт энерджи](https://github.com/gerterker/2490327-cat-energy-32).
+* Сайт: [Мой проект «Кэт энерджи»](https://github.com/gerterker/2490327-cat-energy-32).
 
 ---
 
