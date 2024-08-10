@@ -11,17 +11,17 @@
 
 <body class="page__body">
 
-  <header class="main-header header">
-    <a class="main-header__logo" href="index.html">
-      <img class="logo__image logo__image--icon" src="images/logotype-icon.svg" width="33" height="38" alt="Логотип Cat Energy">
-      <img class="logo__image logo__image--text" src="images/logotype-text.svg" width="101" height="18" alt="Текстовая эмблема Cat Energy">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle button-burger" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
+  <header class="header">
+    <div class="header__wrapper">
+      <nav class="nav">
+        <a class="nav__link logo" href="index.html">
+          <img class="logo__image logo__image--icon" src="images/logotype-icon.svg" width="33" height="38" alt="Логотип Cat Energy">
+          <img class="logo__image logo__image--text" src="images/logotype-text.svg" width="101" height="18" alt="Текстовая эмблема Cat Energy">
+        </a>
+        <button class="nav__toggle button-burger" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="nav__list site-list">
           <li class="site-list__item">
             <a href="index.html">
               Главная
@@ -38,8 +38,8 @@
             </a>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
   <main class="main-container">
@@ -195,7 +195,7 @@
               <a class="product-card__button button" href="404.html">Заказать</a>
             </div>
           </li>
-          <li class="catalog__item product-more">
+          <li class="catalog__item product-card">
             <div class="product-card__content">
               <h3 class="product-card__title">Показать еще 100500 товаров</h3>
               <p class="product-card__description">На самом деле вкусов гораздо больше!</p>
@@ -271,24 +271,30 @@
 
   <footer class="footer">
     <div class="footer__wrapper">
-      <img class="logo__image logo__image--text" src="images/logotype-text.svg" width="128" height="24" alt="Текстовая эмблема Cat Energy">
-      <ul class="social__list social">
-        <li class="social__item">
-          <a class="social__link vkontakte" href="https://vk.com/htmlacademy">
-            <span class="visually-hidden">ВКонтакте</span>
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link youtube" href="https://www.youtube.com/user/htmlacademyru">
-            <span class="visually-hidden">YouTube</span>
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link telegram" href="https://t.me/htmlacademy">
-            <span class="visually-hidden">Telegram</span>
-          </a>
-        </li>
-      </ul>
+      <div class="footer__logo">
+        <a class="footer__link logo" href="#">
+          <img class="logo__image logo__image--text" src="images/logotype-text.svg" width="128" height="24" alt="Текстовая эмблема Cat Energy">
+        </a>
+      </div>
+      <div class="footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link vkontakte" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link youtube" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">YouTube</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link telegram" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
       <div class="footer__copyright copyright">
         <span class="copyright__name">HTML Academy</span>
       </div>
