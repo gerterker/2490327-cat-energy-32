@@ -1,7 +1,38 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
+@import "./common/visually-hidden.scss";
 
 /* BLOCKS */
+@import "./blocks/page.scss";
 @import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/button-burger.scss";
+@import "./blocks/site-list.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/button.scss";
+@import "./blocks/programms.scss";
+@import "./blocks/programm.scss";
+@import "./blocks/specials.scss";
+@import "./blocks/special.scss";
+@import "./blocks/example.scss";
+@import "./blocks/result-list.scss";
+@import "./blocks/result-item.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/product-card.scss";
+@import "./blocks/optionally.scss";
+@import "./blocks/additional-product.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/subscribe-form.scss";
+@import "./blocks/collaboration.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/vkontakte.scss";
+@import "./blocks/youtube.scss";
+@import "./blocks/telegram.scss";
+@import "./blocks/copyright.scss";
+
