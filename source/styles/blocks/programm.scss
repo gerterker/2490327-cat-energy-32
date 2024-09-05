@@ -3,7 +3,7 @@
 }
 
 .programm__item {
-
+  background-color: $basic-grey;
 }
 
 .programm__item--loss {
@@ -11,15 +11,24 @@
 }
 
 .programm__title {
-
+  font-size: 24px;
+  line-height: 1.54;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .programm__description {
-
+  font-family: $secondary-font;
+  color: $special-dark-grey;
 }
 
 .programm__link {
-
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
 }
 
 .programm__item--gain {
