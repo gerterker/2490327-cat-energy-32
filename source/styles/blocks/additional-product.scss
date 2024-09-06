@@ -3,7 +3,12 @@
 }
 
 .additional-product__title {
-
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: $special-dark-grey-2;
 }
 
 .additional-product__list {
@@ -11,14 +16,16 @@
 }
 
 .additional-product__term {
-
+  line-height: 1;
+  text-align: center;
 }
 
 .additional-product__description {
-
+  line-height: 1;
+  text-align: right;
 }
 
 .additional-product__button {
-
+  border: none;
 }
 
