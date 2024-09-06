@@ -11,7 +11,16 @@
 }
 
 .product-card__title {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $special-dark-grey-2;
+}
 
+.product-card__title--more {
+  text-align: center;
+  color: #111111;
 }
 
 .product-card__list {
@@ -23,13 +32,26 @@
 }
 
 .product-card__term {
-
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: $special-dark-grey;
 }
 
 .product-card__description {
-
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: $special-dark-grey;
 }
 
 .product-card__button {
 
+}
+
+.product-card__button--more {
+  font-family: $secondary-font;
+  color: $special-dark-grey;
+  background-color: $basic-grey;
+  border: none;
 }
